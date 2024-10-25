@@ -1,0 +1,61 @@
+.anton-regular {
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .custom-heading {
+
+    color: #FDF1AB;
+
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .list-group-item {
+    border: none;
+  }
+
+  h6 {
+    margin: 0;
+  }
+
+  .badge {
+    padding: 10px 15px; /* Adjust padding to increase height */
+    line-height: 1.5; /* Adjust line height to further control vertical space */
+    font-size: 1rem; /* You can also adjust the font size if necessary */
+  }
+
+  .btn-custom {
+    background-color: #30CBA2;
+    color: #114537;
+    font-family: roboto-medium;
+  }
+
+
+ 
+
+  
+
