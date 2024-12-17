@@ -48,13 +48,79 @@
     font-size: 1rem; /* You can also adjust the font size if necessary */
   }
 
-  .btn-custom {
-    background-color: #30CBA2;
-    color: #114537;
-    font-family: roboto-medium;
+.anton-regular {
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
   }
 
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
 
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .custom-heading {
+
+    color: #FDF1AB;
+
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .list-group-item {
+    border: none;
+  }
+
+  h6 {
+    margin: 0;
+  }
+
+  .badge {
+    padding: 10px 15px; /* Adjust padding to increase height */
+    line-height: 1.5; /* Adjust line height to further control vertical space */
+    font-size: 1rem; /* You can also adjust the font size if necessary */
+  }
+
+/* Button style */
+.btn-custom {
+  background-color: #30CBA2;
+  color: #114537;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #30CBA2; /* Border to maintain outline consistency */
+  border-radius: 6px; /* Rounded corners for a smooth look */
+  padding: 12px 20px; /* Increased padding for better click area */
+  transition: all 0.3s ease; /* Smooth transition for all effects */
+}
+
+.btn-custom:hover {
+  background-color: #27b795; /* Darker shade of green for hover */
+  color: #240d7e; /* Lighter green font color */
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+.btn-custom:active {
+  transform: scale(0.98); /* Slight contraction effect when clicked */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow when clicked */
+  background-color: #1c9f7c; /* Slightly darker background on active */
+}
  
 
   
