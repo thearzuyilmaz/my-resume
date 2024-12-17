@@ -6,6 +6,14 @@
     letter-spacing: 3px;
   }
 
+  .caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+  
+
   .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -22,11 +30,13 @@
     margin: 0;
   }
 
-  .custom-heading {
+  /* Custom heading style for "Arzu Yilmaz" */
+.custom-heading {
+  color: #EC4794;
+  letter-spacing: 3px;
+  text-align: center;
+}
 
-    color: #FDF1AB;
-
-  }
 
   .roboto-light-italic {
     font-family: "Roboto", system-ui;
@@ -72,11 +82,6 @@
     margin: 0;
   }
 
-  .custom-heading {
-
-    color: #FDF1AB;
-
-  }
 
   .roboto-light-italic {
     font-family: "Roboto", system-ui;
@@ -100,28 +105,39 @@
 
 /* Button style */
 .btn-custom {
-  background-color: #30CBA2;
-  color: #114537;
   font-family: "Roboto", sans-serif;
-  border: 2px solid #30CBA2; /* Border to maintain outline consistency */
-  border-radius: 6px; /* Rounded corners for a smooth look */
-  padding: 12px 20px; /* Increased padding for better click area */
-  transition: all 0.3s ease; /* Smooth transition for all effects */
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  background: none;
+  border: 2px solid #FDF1AB; /* Yellow border */
+  color: #FDF1AB; /* Yellow text */
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  box-shadow: 0 0 8px rgba(253, 241, 171, 0.4);
+  display: inline-block;
 }
 
+/* Hover effect */
 .btn-custom:hover {
-  background-color: #27b795; /* Darker shade of green for hover */
-  color: #240d7e; /* Lighter green font color */
-  transform: scale(1.1); /* Slight zoom effect */
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  background: #FDF1AB; /* Yellow background */
+  color: #3F3B00; /* Dark text for contrast */
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(253, 241, 171, 0.8);
 }
 
+/* Active state */
 .btn-custom:active {
-  transform: scale(0.98); /* Slight contraction effect when clicked */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow when clicked */
-  background-color: #1c9f7c; /* Slightly darker background on active */
+  transform: scale(0.98);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #D2C482; /* Slightly darker yellow */
+  color: #3F3B00; /* Consistent text color */
 }
- 
 
-  
-
+/* Parent container for spacing control */
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center; /* Center align the buttons */
+}
