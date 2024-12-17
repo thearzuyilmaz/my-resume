@@ -1,107 +1,102 @@
 .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+}
 
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 3px;
-  }
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+}
 
-  .caprasimo-regular {
-    font-family: "Caprasimo", serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 2px;
-  }
-  
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+h4 {
+  margin: 0;
+}
 
-  h4 {
-    margin: 0;
-  }
-
-  /* Custom heading style for "Arzu Yilmaz" */
+/* Custom heading style for "Arzu Yilmaz" */
 .custom-heading {
-  color: #EC4794;
+  color: #ec4794;
   letter-spacing: 3px;
   text-align: center;
 }
 
+.roboto-light-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
 
-  .roboto-light-italic {
-    font-family: "Roboto", system-ui;
-    font-weight: 300;
-    font-style: italic;
-  }
+.list-group-item {
+  border: none;
+}
 
-  .list-group-item {
-    border: none;
-  }
+h6 {
+  margin: 0;
+}
 
-  h6 {
-    margin: 0;
-  }
-
-  .badge {
-    padding: 10px 15px; /* Adjust padding to increase height */
-    line-height: 1.5; /* Adjust line height to further control vertical space */
-    font-size: 1rem; /* You can also adjust the font size if necessary */
-  }
+.badge {
+  padding: 10px 15px; /* Adjust padding to increase height */
+  line-height: 1.5; /* Adjust line height to further control vertical space */
+  font-size: 1rem; /* You can also adjust the font size if necessary */
+}
 
 .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+}
 
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 3px;
-  }
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+h4 {
+  margin: 0;
+}
 
-  h4 {
-    margin: 0;
-  }
+.roboto-light-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
 
+.list-group-item {
+  border: none;
+}
 
-  .roboto-light-italic {
-    font-family: "Roboto", system-ui;
-    font-weight: 300;
-    font-style: italic;
-  }
+h6 {
+  margin: 0;
+}
 
-  .list-group-item {
-    border: none;
-  }
-
-  h6 {
-    margin: 0;
-  }
-
-  .badge {
-    padding: 10px 15px; /* Adjust padding to increase height */
-    line-height: 1.5; /* Adjust line height to further control vertical space */
-    font-size: 1rem; /* You can also adjust the font size if necessary */
-  }
+.badge {
+  padding: 10px 15px; /* Adjust padding to increase height */
+  line-height: 1.5; /* Adjust line height to further control vertical space */
+  font-size: 1rem; /* You can also adjust the font size if necessary */
+}
 
 /* Button style */
 .btn-custom {
@@ -109,20 +104,21 @@
   margin: 0.5rem;
   font-size: 1.2rem;
   background: none;
-  border: 2px solid #FDF1AB; /* Yellow border */
-  color: #FDF1AB; /* Yellow text */
+  border: 2px solid #fdf1ab; /* Yellow border */
+  color: #fdf1ab; /* Yellow text */
   padding: 0.5rem 1.2rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease,
+    box-shadow 0.2s ease, color 0.2s ease;
   box-shadow: 0 0 8px rgba(253, 241, 171, 0.4);
   display: inline-block;
 }
 
 /* Hover effect */
 .btn-custom:hover {
-  background: #FDF1AB; /* Yellow background */
-  color: #3F3B00; /* Dark text for contrast */
+  background: #fdf1ab; /* Yellow background */
+  color: #3f3b00; /* Dark text for contrast */
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(253, 241, 171, 0.8);
 }
@@ -131,8 +127,8 @@
 .btn-custom:active {
   transform: scale(0.98);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  background-color: #D2C482; /* Slightly darker yellow */
-  color: #3F3B00; /* Consistent text color */
+  background-color: #d2c482; /* Slightly darker yellow */
+  color: #3f3b00; /* Consistent text color */
 }
 
 /* Parent container for spacing control */
